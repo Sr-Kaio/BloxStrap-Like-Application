@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(12, 10, 9);
+    border-radius: 10px;
+    padding: 0;
+}
+
+* {
+    color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    -webkit-app-region: drag;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    max-width: 100%;
+    border-bottom: 4px solid #f2f2f24f;
+
+}
+
+p {
+    color: #f2f2f280;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p2 {
+    color: #f2f2f280;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    max-width: 100%;
+    bottom: 0;
+    border-top: 4px solid #f2f2f24f;
+}
+
+.mid {
+    left: 0;
+    right: 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hirechy {
+    height: 100%;
+    width: 25%;
+
+    padding: 10px;
+    border-right: 4px solid #f2f2f222;
+}
+
+.hirechy button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    line-height: normal;
+}
+
+.hirechy .active {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #ff002f3b;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    line-height: normal;
+}
+
+.hirechy button:hover {
+    background-color: #ff002f17
+}
+
+.options {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer button {
+    margin-top: 5px;
+    background-color: rgb(255, 17, 95);
+    font-weight: bold;
+    font-size: 15px;
+    width: 128px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.footer button:hover {
+    background-color: #ff002f3b;
+}
+
+.footer .outline {
+    background-color: transparent;
+    margin-top: 5px;
+    border: 4px solid #f2f2f222;
+    font-weight: bold;
+    font-size: 15px;
+    width: 128px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+
+.footer .outline:hover {
+    border: 4px solid #f2f2f200;
+    background-color: #f2f2f222;
+}
